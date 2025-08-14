@@ -3,10 +3,9 @@
 Automated installation script for Arch Linux with Sway window manager
 
 ## ⚠️ Warning
-**Early development stage** - Not recommended for production use. Test in VM first.
+**Early development stage** - Only at your own risk. Test in VM first.
 
 ## What it does
-- Installs base Arch Linux system
 - Sets up Sway (Wayland compositor)
 - Configures essential packages and dotfiles
 
@@ -24,24 +23,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## Configuration
-Edit `config` file before running:
-- Hostname
-- Username
-- Timezone
-- Locale
-- Additional packages
-
-## Structure
-```
-arch-sway-setup/
-├── install.sh       # Main script
-├── config          # Configuration
-└── modules/        # Installation modules
-```
-
 ## TODO
-- [ ] Encryption support
 - [ ] AUR helper integration
 - [ ] Better error handling
 - [ ] Multi-monitor setup
